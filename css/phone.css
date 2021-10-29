@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding-bottom: 5px;
+}
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+/* Home */
+#home
+
+{
+height: 280px;
+padding: 20px 30px;
+}
+#home p{
+    font-size: 1.2rem;
+}
+#home ::before{
+    height: 280px;
+}
+/* Services */
+#services{
+    flex-direction: column;
+   
+
+}
+#services .box{
+   width: auto;
+   height: auto;
+
+}
+
+
+/* Client */
+#clients{
+  flex-wrap: wrap;
+}
+#clients img{
+    width: 140px;
+    padding: 5px;
+    height: auto;
+}
+
+
+
+/* Contact */
+/* Utility classes */
+.first{
+    font-size: 30px;
+}
